@@ -1,0 +1,74 @@
+/* Write your CSS here */
+.website-logo{
+    height: 38px;
+    width: 38px;
+}
+.hamburger-icon{
+    height: 28px;
+    width: 28px;
+}
+.hamburger-btn{
+    border-width: 0;
+    background-color: transparent;
+    outline: none;
+    border:none;
+}
+.popup-content{
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    text-decoration: none;
+   
+}
+.trigger-button{
+    outline: none;
+    border-width: 0;
+    border-color: #ffffff;
+    background-color: transparent;
+    align-self: flex-start;
+    margin-left: auto;
+    /* margin-bottom: auto; */
+    border:none;
+    
+}
+.close-icon{
+    font-size: 25px;
+    border-color: #ffffff;
+    background-color: transparent;
+}
+
+.link-item{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000000;
+    outline: none;
+    
+}
+.item-icon{
+    font-size: 30px;
+    margin-right: 10px;
+    margin-top: 0;
+}
+.items-container{
+    list-style-type: none;
+    padding-left: 0;
+    margin: auto;
+}
+.item-heading{
+    font-size: 20px;
+    font-family: "Roboto";
+    margin-top: 15px;
+}
+.nodal-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    height: 90%;
+    max-width: 900px;
+    
+}
